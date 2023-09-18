@@ -8,7 +8,7 @@ export default async function handler(
 	res: NextApiResponse
 ) {
 	try {
-    if (req.method !== "POST") {
+    if (req.method !== "GET") {
       return res.status(405).end();
     }
 
