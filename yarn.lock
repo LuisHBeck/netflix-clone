@@ -2111,10 +2111,6 @@ path-type@^4.0.0:
   resolved "https://registry.npmjs.org/path-type/-/path-type-4.0.0.tgz"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
-"penis@github:edankwan/penis.js":
-  version "0.2.0"
-  resolved "git+ssh://git@github.com/edankwan/penis.js.git#808ac347bbbc0a1fd948929b6ff800cc09f53ec3"
-
 picocolors@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
