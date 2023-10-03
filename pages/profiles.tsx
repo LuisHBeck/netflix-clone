@@ -5,21 +5,21 @@ import { NextPageContext } from "next";
 import { getSession } from "next-auth/react";
 import { useRouter } from "next/router";
 
-export async function getServerSideProsp(context: NextPageContext) {
-	const session = await getSession(context);
+// export async function getServerSideProsp(context: NextPageContext) {
+// 	const session = await getSession(context);
 
-	if (!session) {
-		return {
-			redirect: {
-				destination: "/auth",
-				permanent: false,
-			},
-		};
-	}
-	return {
-		props: {},
-	};
-}
+// 	if (!session) {
+// 		return {
+// 			redirect: {
+// 				destination: "/auth",
+// 				permanent: false,
+// 			},
+// 		};
+// 	}
+// 	return {
+// 		props: {},
+// 	};
+// }
 
 const profiles = () => {
 	const router = useRouter();
